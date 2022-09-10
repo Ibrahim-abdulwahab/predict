@@ -35,6 +35,7 @@ window.addEventListener('load', function(){
                     age.innerHTML = `Your age is ${data.age}`
                 })
         }
+        getAge()
     }
     
     randomDogPic()
