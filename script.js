@@ -18,7 +18,7 @@ window.addEventListener('load', function(){
 
         const  gender=document.getElementById("gender");
         const  age=document.getElementById("age");
-        //const  nationality=document.getElementById("nationality");
+        const  nationality=document.getElementById("nationality");
         
         function getGender(){
             fetch(`https://api.genderize.io/?name=${name}`)
@@ -36,6 +36,17 @@ window.addEventListener('load', function(){
                 })
         }
         getAge()
+        function getNationality(){
+            fetch(` https://api.nationalize.io/?name=${name}`)
+                .then(res => res.json())
+                .then(data => {
+                    nationality.innerHTML = `Your country is ${data.country[0].country_id}`
+                    for (let i = 1; i < 99; i++)
+                        nationality.innerHTML += `,${data.country[i].country_id}`
+                    
+                })
+        }
+        getNationality()
     }
     
     randomDogPic()
