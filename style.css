@@ -33,9 +33,20 @@ html {
     width: 10px;
     background-color: green;
     flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 .input{
     height: 20%;
     width: 100%;
     background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: 200;
+}
+.input input{
+    width: 35%;
+    margin-left: 10px;
 }
