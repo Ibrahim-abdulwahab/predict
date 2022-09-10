@@ -16,3 +16,21 @@ html {
     justify-content: center;
     align-items: center;
 }
+.submain{
+    height:50%;
+    width: 50%;
+    background-color: aqua;
+    display:flex;
+}
+.dog{
+    height: 100%;
+    width:10px;
+    background-color: red;
+    flex-grow: 1;
+}
+.predict{
+    height: 100%;
+    width: 10px;
+    background-color: green;
+    flex-grow: 1;
+}
