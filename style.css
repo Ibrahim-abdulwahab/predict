@@ -65,6 +65,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom-style:dashed ;
 }
 .button input{
     width: 50%;
