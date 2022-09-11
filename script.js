@@ -4,7 +4,7 @@ window.addEventListener('load', function(){
         fetch('https://dog.ceo/api/breeds/image/random')
             .then(res => res.json())
             .then(data => {
-                dog_result.innerHTML = `<img src=${data.message} alt="dog" width=100% height=100% style="border-top-left-radius: 9em;border-bottom-left-radius: 9em;"/>`
+                dog_result.innerHTML = `<img src=${data.message} alt="dog""/>`
             });
     }
     document.getElementById("btn").addEventListener("click",getInfo);
