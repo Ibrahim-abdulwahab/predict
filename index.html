@@ -1,0 +1,41 @@
+<!DOCTYPE html><!--just the bases for any html file-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="landscape.css" media="all and (orientation: landscape)">
+    <link rel="stylesheet" href="portrait.css" media="all and (orientation: portrait)">
+    <!--<link rel="stylesheet" href="style.css">-->
+    <title>Prediction!</title><!--..-->
+</head>
+<body>
+    <div class="main"><!--This div will be the size of my screen-->
+        <h1> Predicting Dogs!</h1>
+        <div class="submain"><!--This div is divided into 2-->
+            <div class="dog" id="dog"><!--This div contains the dog picture-->
+
+            </div>
+            <div class="predict"><!--I divided this div into 5 divs-->
+                <div class="input">
+                    <label for="fname">Enter your name: </label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+                <div class="button">
+                    <input type="button" id="btn" value="Click me" >
+                </div>
+                <div class="property" id="gender">
+                    Your gender is .....
+                </div>
+                <div class="property" id="age">
+                    Your age is .....
+                </div>
+                <div class="property" id="nationality">
+                    Your nationality is ....
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
