@@ -12,8 +12,15 @@ html {
     height: 100vh;
     width:100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+h1{
+    margin-bottom: 90px;
+    font-size: 8em;
+    font-style: oblique;
+    font-family: cursive;
 }
 .submain{
     height:50%;
