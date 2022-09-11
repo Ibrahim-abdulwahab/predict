@@ -18,7 +18,7 @@ html {
     background-image: url(https://img.freepik.com/free-vector/hand-painted-abstract-floral-pattern_23-2148913440.jpg?w=2000);
 }
 h1{
-    margin-bottom: 90px;
+    margin-bottom: 60px;
     font-size: 4em;
     font-style: oblique;
     font-family: cursive;
@@ -45,6 +45,7 @@ h1{
     align-items: stretch;
 }
 .dog img{
+    max-height: 100%; /*tried fit content and all sorts of other techniques but some images would stretch the div*/
     max-width: 100%;
     border-top-left-radius: 9em;
     border-top-right-radius: 9em;
@@ -89,6 +90,10 @@ h1{
     border-radius:10em ;
     border: none;
     background-color: aqua;
+}
+.button input:hover{
+    background-color: rgba(0, 255, 255,0.8);
+    cursor: pointer;
 }
 .property{
     width: 100%;
