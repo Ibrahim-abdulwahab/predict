@@ -15,12 +15,14 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-abstract-floral-pattern_23-2148913440.jpg?w=2000);
 }
 h1{
     margin-bottom: 90px;
     font-size: 8em;
     font-style: oblique;
     font-family: cursive;
+    color: red;
 }
 .submain{
     height:50%;
